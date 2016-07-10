@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang=<%= lang %>>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=<%= charset %>"/>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="static/assets/vendor/easyui/themes/metro/easyui.css">
+    <link rel="stylesheet" type="text/css" href="static/assets/css/clgg.css">
+    <script type="text/javascript" src="static/assets/lib/require.js" data-main="static/init.js"></script>
+    <script type="text/javascript" src="static/home/home.js?v=<%= version %>"></script>
+</head>
+<body class="easyui-layout" style="text-align:left" fit="true">
+<div id= "header" region="north" border="false" style="height:75px;background:#666;padding:10px">north region</div>
+<div id ="menu" region="west" split="true" title="菜单" style="width:175px;padding:10px;">west content</div>
+<div region="center" title="工作台">
+    <div id="tabs" class="easyui-tabs" fit="true" border="false" plain="true">
+        <div title="welcome">welcome to clgg</div>
+    </div>
+</div>
+</body>
+</html>

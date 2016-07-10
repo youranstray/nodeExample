@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=<%= charset %>"/>
+    <title>登陆</title>
+    <link href="static/assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="static/assets/vendor/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="static/assets/css/style.css" rel="stylesheet" />
+    <style type="text/css">
+        .login_logo { width:420px; height:80px; line-height:80px; background:url(static/assets/images/logo2-w.png) no-repeat left center; color:#FFF; font-size:35px; padding-left:100px; position:absolute; top:20%; left:50%; margin-left:-230px; z-index:2;}
+        .login_bg { position:absolute; left:0; top:0; width:100%; height:100%;}
+        .login_bg img {width:100%; height:100%;}
+        .login_box { width:550px;padding:50px; position: absolute; top:30%; left:50%; margin-left:-325px; z-index:1;
+            background: rgba(00,00,00,0.5);
+            -ms-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#a8000000', EndColorStr='#a8000000');
+            filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#a8000000', EndColorStr='#a8000000');
+        }
+    </style>
+    <script type="text/javascript" src="static/assets/lib/require.js" data-main="static/init.js"></script>
+    <script type="text/javascript" src="static/login/main.js"></script>
+</head>
+<body>
+    <div class="login_bg"><img src="static/assets/images/section10.jpg" /></div>
+    <div class="login_logo">远行供应链后台管理系统</div>
+    <div class="login_box" id="login"></div>
+</body>
+</html>

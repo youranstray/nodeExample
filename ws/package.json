@@ -1,0 +1,15 @@
+{
+  "name": "clgg",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "latest",
+    "cookie-parser":"latest",
+    "body-parser":"latest",
+    "express-session":"latest",
+    "method-override":"latest",
+    "underscore": "latest",
+    "fs-extra": "~0.8.1",
+    "morgan":"latest"
+  }
+}

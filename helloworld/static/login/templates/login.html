@@ -1,0 +1,29 @@
+﻿<form id="loginform" class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="username">用户名</label>
+    <div class="controls">
+      <input type="text" id="username" name="username" placeholder="用户名" username="true"  required></input>
+      <span for="username" class="help-block f_red1 icon_20"></span>
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="password">密码</label>
+    <div class="controls">
+      <input type="password" id="password" name="password" placeholder="密码" required></input>
+      <span for="password" class="help-block f_red1 icon_20"></span>
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="verifycode">验证码</label>
+    <div class="controls yzm">
+      <label class="control-controls">
+        <input class="w_120" type="text" id="verifycode" name="verifycode"  placeholder="验证码" required></input>
+        <a title="看不清，换一张" id="verifycode-image"></a>
+      </label>
+      <span for="verifycode" class="help-block f_red1 icon_20"></span>
+    </div>
+  </div>
+  <div class="control-group tx_c">
+    <a id="submit" href="javascript:void(0);" class="w_150 btn btn-success btn-large">登录</a>
+  </div>
+</form>
